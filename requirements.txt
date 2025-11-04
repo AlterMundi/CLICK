@@ -1,0 +1,20 @@
+# CLICK - Biomedical Data Acquisition System
+# Requirements for Linux, macOS, and Windows
+
+# Core dependencies - REQUIRED
+bleak>=0.20.0           # Cross-platform Bluetooth Low Energy
+pylsl>=1.16.0           # Lab Streaming Layer
+matplotlib>=3.5.0       # Real-time and static plotting
+numpy>=1.21.0           # Numerical computing
+pandas>=1.3.0           # Data manipulation and CSV handling
+scipy>=1.7.0            # Signal processing (filtering)
+
+# Analysis tools - RECOMMENDED
+neurokit2>=0.2.0        # Cardiac signal analysis and HRV
+
+# Optional - for Muse S streaming
+# muselsl>=2.0.0        # Uncomment if using Muse S headband
+
+# Development tools - OPTIONAL
+# ipython>=8.0.0        # Enhanced REPL
+# jupyter>=1.0.0        # Notebook support for analysis
