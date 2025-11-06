@@ -13,7 +13,7 @@ scipy>=1.7.0            # Signal processing (filtering)
 neurokit2>=0.2.0        # Cardiac signal analysis and HRV
 
 # Optional - for Muse S streaming
-# muselsl>=2.0.0        # Uncomment if using Muse S headband
+muselsl>=2.0.0        # Uncomment if using Muse S headband
 
 # Development tools - OPTIONAL
 # ipython>=8.0.0        # Enhanced REPL
